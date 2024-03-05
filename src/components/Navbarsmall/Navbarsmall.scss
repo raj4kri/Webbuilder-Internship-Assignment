@@ -1,0 +1,25 @@
+$color_1: #5c6874;
+
+$color_2: #5c6874;
+ul.breadcrumb {
+  margin-left: 278px;
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 8px 16px;
+  list-style: none;
+
+  li {
+    display: inline;
+    a {
+      color: $color_2;
+    }
+  }
+  li + li {
+    &:before {
+      padding: 8px;
+      color: $color_1;
+      content: ">\00a0";
+    }
+  }
+}

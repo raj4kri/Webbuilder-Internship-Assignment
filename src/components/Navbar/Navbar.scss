@@ -1,0 +1,82 @@
+$color_1: rgba(209, 214, 218, 1);
+$background-color_1: white;
+$background-color_2: rgb(11, 13, 17);
+
+/* Responsive styles */
+/* Responsive styles for smaller screens */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $background-color_1;
+}
+.navbar {
+  background-color: $background-color_2;
+  width: 1500px;
+
+  height: 64px;
+
+  display: flex;
+  ul {
+    li {
+      margin-top: 23px;
+      font-style: inter;
+      font-size: 14px;
+      color: $color_1;
+      height: 20px;
+    }
+  }
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.search {
+  margin-top: 14px;
+  margin-left: 480px;
+  border-radius: 8px;
+  display: flex;
+  height: 37px;
+  width: 258px;
+  background: #ffffff;
+
+}
+
+.CiSearch{
+	height: 50px;
+	width: 50px;
+	font-size: 40px;
+	color:rgb(101, 104, 107);
+}
+.Categories {
+  width: 73px;
+  margin-left: 79px;
+}
+.Website_Builders {
+  width: 142px;
+  margin-left: 53px;
+}
+.Today_deals {
+  width: 91px;
+  margin-left: 53px;
+}
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background-color: $background-color_2;
+    text-align: center;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}

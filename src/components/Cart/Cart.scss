@@ -1,0 +1,146 @@
+$color_1: 0;
+$color_2: white;
+$color_3: #2c384a;
+$font-family_1: Inter;
+$border-color_1: #ffffff;
+
+* {
+	margin: 0;
+	padding: 0;
+	color: $color_1;
+}
+.cont {
+	width: auto;
+	display: flex;
+	justify-content: left;
+	margin-left: 270px;
+}
+.card-container {
+	background: #ffffff;
+	height: 425px;
+	width: 300px;
+	margin-top: 37px;
+	margin-left: 40px;
+	button {
+		width: 292px;
+		height: 48px;
+		margin-top: 20px;
+		margin-left: 4px;
+		border-radius: 12px;
+		background: #1b88f4;
+		color: $color_2;
+		border-color: $border-color_1;
+	}
+}
+.img {
+	margin-top: 37px;
+	margin-left: 76px;
+}
+.price {
+	margin-left: 18px;
+}
+.heading {
+	font-family: $font-family_1;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 87px;
+}
+.para {
+	width: 284px;
+	margin-top: 3px;
+	height: 48px;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+.head {
+	// width: 495px // height: 44px margin-top: 20px;
+	margin-left: 292px;
+	font-family: $font-family_1;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 44px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: $color_3;
+}
+.discount {
+	background: #f2f4f7;
+	width: 55px;
+	height: 20px;
+	margin-left: 20px;
+	border-radius: 8px;
+}
+.lt {
+	background: #f2f4f7;
+	display: flex;
+	width: 100px;
+	height: 20px;
+	margin-left: 20px;
+	border-radius: 8px;
+}
+.head2 {
+	margin-top: 100px;
+	margin-left: 292px;
+	font-family: $font-family_1;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 44px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: $color_3;
+}
+
+
+
+	
+
+
+.input {
+
+
+	width: 348px;
+   height: 52px;
+
+   
+
+	
+}
+.sineup {
+
+
+	width: 97px;
+	height: 52px;
+	background: #1B88F4;
+	text-decoration-color: #ffffff;
+	border-end-end-radius: 8px;
+	border-top-right-radius: 8px;
+	border-color: #ffffff;
+
+	
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.699999988079071px;
+text-align: center;
+
+	
+}
+
+
+.form{
+height: 20px;
+margin-top: 5px;;
+margin-left: 805px;
+display: flex;
+
+}
+
+.disit{
+	display: flex;
+	margin: 5px;
+}
